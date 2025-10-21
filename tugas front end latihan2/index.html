@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Registrasi Nilai</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Bagian Form Registrasi -->
+    <div id="form-section" class="card active">
+      <h2>Form Registrasi</h2>
+      <input type="text" id="namaDepan" placeholder="Nama Depan">
+      <input type="text" id="namaBelakang" placeholder="Nama Belakang">
+      <button onclick="kirimData()">Kirim</button>
+    </div>
+
+    <!-- Bagian Hasil -->
+    <div id="hasil-section" class="card">
+      <h2>Hasil Penilaian</h2>
+      <p id="output-nama"></p>
+      <p id="output-angka"></p>
+      <p id="output-huruf"></p>
+      <button onclick="kembali()">Kembali</button>
+    </div>
+  </div>
+
+  <script src="main.js"> </script>
+</body>
+</html>
